@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:docs.runpod.io)",
+      "Bash(docker build:*)",
+      "WebSearch",
+      "WebFetch(domain:hub.docker.com)"
+    ]
+  }
+}
