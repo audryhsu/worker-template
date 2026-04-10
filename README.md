@@ -1,4 +1,3 @@
-hello audry!
 ![RunPod Worker Template](https://cpjrphpz3t5wbwfe.public.blob.vercel-storage.com/worker-template_banner-zUuCAjwDuvfsINR6vKBhYvvm3TnZFB.jpeg)
 
 ---
@@ -13,10 +12,10 @@ This repository serves as a starting point for creating your own custom RunPod S
 
 ## Getting Started
 
-1.  **Use this template:** Create a new repository based on this template or clone it directly.
-2.  **Customize:** Modify the code and configuration files to implement your specific task.
-3.  **Test:** Run your worker locally to ensure it functions correctly.
-4.  **Deploy:** Connect your repository to RunPod or build and push the Docker image manually.
+1. **Use this template:** Create a new repository based on this template or clone it directly.
+2. **Customize:** Modify the code and configuration files to implement your specific task.
+3. **Test:** Run your worker locally to ensure it functions correctly.
+4. **Deploy:** Connect your repository to RunPod or build and push the Docker image manually.
 
 ## Customizing Your Worker
 
@@ -38,23 +37,24 @@ This repository serves as a starting point for creating your own custom RunPod S
 
 You can test your handler logic locally using the RunPod Python SDK. For detailed steps on setting up your local environment (creating a virtual environment, installing dependencies) and running the handler, please refer to the [RunPod Serverless Get Started Guide](https://docs.runpod.io/serverless/get-started).
 
-1.  **Prepare Input:** Modify `test_input.json` with relevant sample input for your handler.
-2.  **Run the Handler:**
+1. **Prepare Input:** Modify `test_input.json` with relevant sample input for your handler.
+2. **Run the Handler:**
+
     ```bash
     python handler.py
     ```
+
     This will execute your `handler` function with the contents of [`test_input.json`](/test_input.json) as input.
 
 ## Deploying to RunPod
 
 There are two main ways to deploy your worker:
 
-1.  **GitHub Integration (Recommended):**
-
+1. **GitHub Integration (Recommended):**
     - Connect your GitHub repository to RunPod Serverless. RunPod will automatically build and deploy your worker whenever you push changes to your specified branch.
     - For detailed instructions on setting up the GitHub integration, authorizing RunPod, and configuring your deployment, please refer to the [RunPod Deploy with GitHub Guide](https://docs.runpod.io/serverless/github-integration).
 
-2.  **Manual Docker Build & Push:**
+2. **Manual Docker Build & Push:**
     - For detailed instructions on building the Docker image locally and pushing it to a container registry, please see the [RunPod Serverless Get Started Guide](https://docs.runpod.io/serverless/get-started#step-6-build-and-push-your-docker-image).
     - Once pushed, create a new Template or Endpoint in the RunPod Serverless UI and point it to the image in your container registry.
 
