@@ -1,4 +1,4 @@
-4/14 v2 
+4/14 v3 
 ![RunPod Worker Template](https://cpjrphpz3t5wbwfe.public.blob.vercel-storage.com/worker-template_banner-zUuCAjwDuvfsINR6vKBhYvvm3TnZFB.jpeg)
 
 ---
