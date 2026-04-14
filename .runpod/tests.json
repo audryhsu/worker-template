@@ -11,6 +11,6 @@
   "config": {
     "gpuTypeId": "NVIDIA A40",
     "gpuCount": 1,
-    "allowedCudaVersions": [12.8, 12.9]
+    "minCudaVersion": "12.9"
   }
 }
